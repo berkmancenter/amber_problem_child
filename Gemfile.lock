@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/berkmancenter/problem_child.git
-  revision: ce0258dbe16a08e5034392adb91a731c7df61bbc
+  revision: ce31a925fb15f0ab450fef82ac7b6433d7a0d8e3
   specs:
     problem_child (2.0.0)
       activesupport (~> 4.2)

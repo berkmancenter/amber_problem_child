@@ -2,4 +2,6 @@
 
 require ::File.expand_path('../config/environment', __FILE__)
 require 'problem_child'
+ProblemChild.views_dir = 'app/views'
+ProblemChild.public_dir = Rails.public_path
 run ProblemChild::App

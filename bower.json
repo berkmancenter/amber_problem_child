@@ -1,0 +1,21 @@
+{
+  "name": "amber_problem_child",
+  "version": "0.0.1",
+  "homepage": "https://github.com/berkmancenter/amber_common",
+  "authors": [
+    "Ryan Morrison~Westphal <ryan@trippingthebits.com>"
+  ],
+  "description": "Submit Amber issues without an account",
+  "keywords": [
+    "github",
+    "amber"
+  ],
+  "license": "GPL-2.0",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "public/components",
+    "test",
+    "tests"
+  ]
+}

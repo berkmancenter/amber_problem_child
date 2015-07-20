@@ -45,5 +45,8 @@
 .rvmrc
 
 # vim
-.swp
-.swo
+*.swp
+*.swo
+
+# bower
+public/components

@@ -1,0 +1,24 @@
+<div class="row">
+  <div class="col-sm-12">
+    <h1 class="page-header">Submit an issue to Amber</h1>
+
+    <% if issue %>
+      <div class="alert alert-success" role="alert">
+        Your issue was successfully submitted<% if access %> as <a href="http://github.com/<%= repo %>/issues/<%= issue %>"><%= repo %>#<%= issue %></a><% end %>.
+      </div>
+    <% end %>
+
+    <form method="post">
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" class="form-control" id="title" name="title" />
+      </div>
+      <div class="form-group">
+        <label for="body">Issue?</label>
+        <textarea class="form-control" rows="10" id="body" name="body"></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+  </div>
+</div>

@@ -8,9 +8,9 @@
       </div>
     <% end %>
 
-    <% if flash %>
+    <% if defined? flash %>
       <div class="alert alert-info" role="alert">
-        <%= flash %>
+        <%= flash if defined?( flash ) %>
       </div>
     <% end %>
 

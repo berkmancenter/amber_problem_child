@@ -6,6 +6,11 @@ $( 'form' ).submit( function( e ) {
     prevent = true;
   }
 
+  if ( !grecaptcha.getResponse() ) {
+    $( '.alert-recaptcha' ).removeClass( 'hidden' );
+    prevent = true;
+  }
+
   if ( prevent ) {
     e.preventDefault();
     return false;

@@ -12,6 +12,10 @@
       <%= flash if defined?( flash ) %>
     </div>
 
+    <div class="alert alert-warning alert-recaptcha hidden" role="alert">
+      Please verify that you are not a robot.
+    </div>
+
     <form method="post">
       <div class="form-group">
         <label for="title">Title</label>
@@ -21,6 +25,8 @@
         <label for="issue">Issue?</label>
         <textarea class="form-control" rows="10" id="issue" name="issue"></textarea>
       </div>
+
+      <div class="g-recaptcha" data-sitekey="6LcGGgoTAAAAAA4YvS7pEwWaFB7gVRT68E6Hnzvr"></div>
 
       <button type="submit" class="btn btn-default">Submit</button>
     </form>

@@ -13,6 +13,8 @@
       height: 30px;
     }
   </style>
+
+  <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 <body>
   <header>
@@ -25,10 +27,11 @@
     </nav>
   </header>
 
-
   <div class="container">
     <%= yield %>
   </div>
 
+  <script src="/components/jquery/dist/jquery.min.js"></script>
+  <script src="/application.js"></script>
 </body>
 </html>

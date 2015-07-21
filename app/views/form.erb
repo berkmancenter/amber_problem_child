@@ -8,11 +8,9 @@
       </div>
     <% end %>
 
-    <% if defined? flash %>
-      <div class="alert alert-info" role="alert">
-        <%= flash if defined?( flash ) %>
-      </div>
-    <% end %>
+    <div class="alert alert-info hidden" role="alert">
+      <%= flash if defined?( flash ) %>
+    </div>
 
     <form method="post">
       <div class="form-group">

@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/berkmancenter/problem_child.git
-  revision: 59da330868ceb601cd8df7ef1a4119837a5de13c
+  revision: f3ea86ebc1107d262c3e03a4bfad9c52281e38cd
   specs:
     problem_child (2.0.0)
       activesupport (~> 4.2)
@@ -89,7 +89,7 @@ GEM
     rack (1.6.0)
     rack-protection (1.5.3)
       rack
-    rack-ssl-enforcer (0.2.8)
+    rack-ssl-enforcer (0.2.9)
     rack-test (0.6.3)
       rack (>= 1.0)
     rails (4.2.3)
@@ -185,4 +185,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.10.0.pre.2
+   1.10.6

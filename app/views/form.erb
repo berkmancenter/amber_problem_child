@@ -4,7 +4,7 @@
 
     <% if issue %>
       <div class="alert alert-success" role="alert">
-        Your issue was successfully submitted<% if access %> as <a href="http://github.com/<%= repo %>/issues/<%= issue %>"><%= repo %>#<%= issue %></a><% end %>.
+        Your issue was successfully submitted<% if access %> as <a href="http://github.com/<%= repo %>/issues/<%= issue %>"><%= repo %>#<%= issue %></a><% end %>. If you would like to stay updated on the status of this issue, bookmark the following page: <a href="http://github.com/<%= repo %>/issues/<%= issue %>"><%= repo %>#<%= issue %></a><% end %>. 
       </div>
     <% end %>
 
